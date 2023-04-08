@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: #ccc;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+
+#inputText{
+    width: 300px;
+    height: 46px;
+    border: 1px  solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orangered;
+    border-radius: 15px;
+    color: rebeccapurple;
+
+}
+
+#addToDo{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(23, 122, 5);
+    color: wheat;
+    text-align: center;
+}
+
+#addToDo:active{
+    background-color: rgb(128, 199, 22);
+    color: aliceblue;
+    box-shadow: 2px 2px rgb(46, 39, 34);
+}
+
+#clearToDo{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(255, 77, 0);
+    color: wheat;
+    text-align: center;
+}
+
+#clearToDo:active{
+    background-color: rgb(247, 5, 5);
+    color: aliceblue;
+    box-shadow: 2px 2px rgb(46, 39, 34);
+}
+
+.paragraf-css{
+
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: rgb(120, 12, 243);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.to-dos{
+    margin-top: 25px;
+}
